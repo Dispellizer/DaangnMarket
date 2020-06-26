@@ -12,6 +12,7 @@ const HeaderBlock = styled.header`
   width: 100%;
   background: white;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
 `;
 
 const Wrapper = styled(Responsive)`

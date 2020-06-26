@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from '../components/common/Header';
 
 const UsersPage = () => {
-  return <div>사용자 정보 페이지</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default UsersPage;
