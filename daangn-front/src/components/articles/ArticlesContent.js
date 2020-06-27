@@ -135,7 +135,7 @@ const ArticlesContent = () => {
         <ArticlesImage>
           <SimpleSlider />
         </ArticlesImage>
-        <ArticlesProfile>
+        <ArticlesProfile to="/users/1">
           <div className="profile-left">
             <div className="profile-img-area">
               <img className="profile-img" alt="profile img" src={profile} />
