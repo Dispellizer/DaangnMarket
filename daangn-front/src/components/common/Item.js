@@ -11,7 +11,6 @@ const Item = () => {
       display: flex;
       flex-direction: column;
       width: 211px;
-      height: 298px;
       border: 1px solid #e9ecef;
       border-radius: 8px;
       color: black;
@@ -21,11 +20,15 @@ const Item = () => {
         transform: translateY(-2px);
       }
       .item-photo {
-        background-image: url(${itemPhoto});
-        background-size: cover;
-        border-radius: 8px 8px 0 0;
-        width: 211px;
+        display: flex;
+        align-items: center;
         height: 160px;
+        overflow: hidden;
+        border-radius: 8px;
+        img {
+          width: 211px;
+          height: 211px;
+        }
       }
       .item-desc {
         margin: 16px 16px 0;
@@ -67,7 +70,9 @@ const Item = () => {
   return (
     <ItemWrapp>
       <Link to="/articles" className="item-link">
-        <div className="item-photo"> </div>
+        <div className="item-photo">
+          <img src={itemPhoto} alt="item" />
+        </div>
         <div className="item-desc">
           <h2 className="item-title">과학뒤집기 40권</h2>
           <div className="item-region">경기도 용인시 수지구 동천동</div>

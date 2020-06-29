@@ -108,7 +108,7 @@ const HeaderTop = () => {
           />
           <div className="top-keywords">
             <h3 className="top-keywords-title">
-              <Link to="#" className="top-keywords-link">
+              <Link to="/top_keywords" className="top-keywords-link">
                 오늘의 인기 검색어
               </Link>
             </h3>

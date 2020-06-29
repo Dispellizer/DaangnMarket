@@ -1,7 +1,18 @@
 import React from 'react';
+import Header from '../components/common/Header';
+import HotArticlesContent from '../components/hotArticles/HotArticlesContent';
+import AppDown from '../components/hotArticles/AppDown';
+import Footer from '../components/common/Footer';
 
 const HotArticlesPage = () => {
-  return <div>인기 중고 매물 페이지</div>;
+  return (
+    <>
+      <Header />
+      <HotArticlesContent />
+      <AppDown />
+      <Footer />
+    </>
+  );
 };
 
 export default HotArticlesPage;

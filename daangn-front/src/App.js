@@ -7,6 +7,7 @@ import SearchPage from './pages/SearchPage';
 import ArticlesPage from './pages/ArticlesPage';
 import HotArticlesPage from './pages/HotArticlesPage';
 import UsersPage from './pages/UsersPage';
+import TopKeywordsPage from './pages/TopKeywordsPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route component={ArticlesPage} path="/articles" />
       <Route component={HotArticlesPage} path="/hot_articles" />
       <Route component={UsersPage} path="/users/:userId" />
+      <Route component={TopKeywordsPage} path="/top_keywords" />
     </>
   );
 }

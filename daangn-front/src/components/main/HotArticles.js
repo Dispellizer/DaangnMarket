@@ -68,7 +68,7 @@ const HotArticles = () => {
           <HotArticlesItem />
         </div>
         <div className="hot-articles-more">
-          <Link to="#" className="more-item">
+          <Link to="/hot_articles" className="more-item">
             <img alt="+" src={plus} />
             <div className="more-text">
               당근마켓

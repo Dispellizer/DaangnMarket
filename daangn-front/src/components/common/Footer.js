@@ -66,6 +66,8 @@ const Footer = () => {
             <a
               className="footer-item-link"
               href="https://policy.daangn.com/terms.html"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               이용약관
             </a>
@@ -74,6 +76,8 @@ const Footer = () => {
             <a
               className="footer-item-link"
               href="https://policy.daangn.com/terms.html"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               개인정보처리방침
             </a>
@@ -82,6 +86,8 @@ const Footer = () => {
             <a
               className="footer-item-link"
               href="https://policy.daangn.com/terms.html"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               위치기반서비스 이용약관
             </a>
@@ -90,6 +96,8 @@ const Footer = () => {
             <a
               className="footer-item-link"
               href="https://policy.daangn.com/terms.html"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               광고주센터
             </a>
@@ -98,6 +106,8 @@ const Footer = () => {
             <a
               className="footer-item-link"
               href="https://policy.daangn.com/terms.html"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               ABOUT US
             </a>
@@ -109,11 +119,23 @@ const Footer = () => {
           <li className="footer-list-item">
             <p>
               고객문의 :
-              <a href="mailto:cs@daangnservice.com"> cs@daangnservice.com</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:cs@daangnservice.com"
+              >
+                cs@daangnservice.com
+              </a>
             </p>
             <p>
               제휴문의 :
-              <a href="mailto:contact@daangn.com"> contact@daangn.com</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:contact@daangn.com"
+              >
+                contact@daangn.com
+              </a>
             </p>
           </li>
         </ul>
@@ -125,6 +147,8 @@ const Footer = () => {
           <ul className="social-list">
             <li className="social-list-item">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="footer-social-link"
                 href="https://www.facebook.com/daangn"
               >
@@ -133,6 +157,8 @@ const Footer = () => {
             </li>
             <li className="social-list-item">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="footer-social-link"
                 href="https://www.instagram.com/daangnmarket/"
               >
@@ -141,6 +167,8 @@ const Footer = () => {
             </li>
             <li className="social-list-item">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="footer-social-link"
                 href="https://blog.naver.com/daangn"
               >
